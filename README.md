@@ -1,4 +1,4 @@
-## mukul_s_application1
+## StuVibe
 
 Generated with ❤️ from [DhiWise](https://www.dhiwise.com)
 
