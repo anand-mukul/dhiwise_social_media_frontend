@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const shapes = { round: "rounded-[12px]" } as const;
 const variants = {
