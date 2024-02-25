@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #53d769;
+  --primary-color: #79d0f1;
 }
 /* Override default focus colors for tailwindcss-forms https://github.com/tailwindlabs/tailwindcss-forms */
 [type='text']:focus,

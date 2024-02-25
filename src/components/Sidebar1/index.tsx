@@ -21,41 +21,46 @@ const Sidebar1: React.FC<Sidebar1Props> = (props) => {
             alt="settings"
           />
           <Button
-            className="flex h-12 items-center justify-center mt-[101px] rounded-[12px] w-12"
+            className="flex h-12 items-center justify-center mt-[101px] w-12"
+            shape="round"
             color="white_A700"
-            size="lg"
+            size="sm"
             variant="fill"
           >
             <Img className="h-6" src="defaultNoData.png" alt="home" />
           </Button>
           <Button
-            className="flex h-12 items-center justify-center mt-10 rounded-[12px] w-12"
+            className="flex h-12 items-center justify-center mt-10 w-12"
+            shape="round"
             color="white_A700_33"
-            size="lg"
+            size="sm"
             variant="fill"
           >
             <Img className="h-6" src="images/img_calendar.svg" alt="calendar" />
           </Button>
           <Button
-            className="flex h-12 items-center justify-center mt-10 rounded-[12px] w-12"
+            className="flex h-12 items-center justify-center mt-10 w-12"
+            shape="round"
             color="white_A700_33"
-            size="lg"
+            size="sm"
             variant="fill"
           >
             <Img className="h-6" src="images/img_mail.svg" alt="mail" />
           </Button>
           <Button
-            className="flex h-12 items-center justify-center mt-10 rounded-[12px] w-12"
+            className="flex h-12 items-center justify-center mt-10 w-12"
+            shape="round"
             color="white_A700_33"
-            size="lg"
+            size="sm"
             variant="fill"
           >
             <Img className="h-6" src="images/img_user.svg" alt="user" />
           </Button>
           <Button
-            className="flex h-12 items-center justify-center mt-10 rounded-[12px] w-12"
+            className="flex h-12 items-center justify-center mt-10 w-12"
+            shape="round"
             color="white_A700_33"
-            size="lg"
+            size="sm"
             variant="fill"
           >
             <Img
@@ -65,9 +70,10 @@ const Sidebar1: React.FC<Sidebar1Props> = (props) => {
             />
           </Button>
           <Button
-            className="flex h-12 items-center justify-center mb-[15px] mt-[322px] rounded-[12px] w-12"
+            className="flex h-12 items-center justify-center mb-[15px] mt-[322px] w-12"
+            shape="round"
             color="white_A700_33"
-            size="xl"
+            size="md"
             variant="outline"
           >
             <Img

@@ -1,14 +1,19 @@
 import React from "react";
 import { ErrorMessage } from "../../components/ErrorMessage";
 
-const shapes = { square: "rounded-none", round: "rounded-[12px]" } as const;
+const shapes = { square: "rounded-none", round: "rounded-lg" } as const;
 const variants = {
-  fill: { gray_100: "bg-gray-100 text-gray-500", white_A700: "bg-white-A700" },
+  fill: {
+    gray_100: "bg-gray-100 text-gray-500",
+    white_A700: "bg-white-A700 text-gray-500",
+  },
 } as const;
 const sizes = {
   xs: "pb-[9px] pr-2 pt-2",
-  sm: "pb-[21px] sm:pr-5 pr-[21px] pt-[22px]",
-  md: "pb-[19px] pl-[19px] pt-[23px]",
+  sm: "pb-[11px] pl-2.5 pt-3",
+  md: "pb-[17px] pl-[15px] pt-4",
+  lg: "pb-3.5 pt-[18px] px-3.5",
+  xl: "pb-3.5 pl-3.5 pt-[19px]",
 } as const;
 
 export type InputProps = Omit<
@@ -50,9 +55,9 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
       suffix,
       onChange,
       shape = "round",
-      size = "xs",
+      size = "md",
       variant = "fill",
-      color = "gray_100",
+      color = "white_A700",
       ...restProps
     },
     ref,

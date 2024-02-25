@@ -11,19 +11,13 @@ const Home = () => {
       </p>
       <ul>
         <li>
-          <Link to="/videochat">VideoChat</Link>
+          <Link to="/singlephoto">SinglePhoto</Link>
         </li>
         <li>
-          <Link to="/groupmessage">GroupMessage</Link>
+          <Link to="/myprofile">MyProfile</Link>
         </li>
         <li>
-          <Link to="/myfriends">MyFriends</Link>
-        </li>
-        <li>
-          <Link to="/userprofile">UserProfile</Link>
-        </li>
-        <li>
-          <Link to="/gallery">Gallery</Link>
+          <Link to="/settings">Settings</Link>
         </li>
       </ul>
     </div>

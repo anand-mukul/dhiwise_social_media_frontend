@@ -1,31 +1,25 @@
 import React from "react";
 
-const shapes = { round: "rounded-md" } as const;
+const shapes = { round: "rounded-[12px]" } as const;
 const variants = {
   outline: {
     white_A700_33: "border-2 border-solid border-white-A700_33",
+    gray_500_6c: "border-2 border-gray-500_6c border-solid text-gray-900",
     gray_500_33: "border-2 border-gray-500_33 border-solid",
+    gray_500_66: "border-2 border-gray-500_66 border-solid text-red-A200",
   },
   fill: {
-    white_A700: "bg-white-A700",
-    gray_500_33: "bg-gray-500_33 text-gray-500",
-    red_A200: "bg-red-A200 text-white-A700",
-    light_blue_200_33: "bg-light_blue-200_33",
-    gray_900: "bg-gray-900 text-white-A700",
-    white_A700_33: "bg-white-A700_33",
-    light_blue_200: "bg-light_blue-200 text-white-A700",
     green_400: "bg-green-400 text-white-A700",
-    indigo_A200: "bg-indigo-A200",
+    white_A700: "bg-white-A700",
+    light_blue_200: "bg-light_blue-200 text-white-A700",
+    white_A700_33: "bg-white-A700_33 text-white-A700",
   },
 } as const;
 const sizes = {
-  xs: "py-px",
-  sm: "p-[3px]",
-  md: "px-[7px] py-2",
-  lg: "p-3",
-  xl: "p-[15px]",
-  "2xl": "px-3.5 py-[18px]",
-  "3xl": "p-5",
+  xs: "pl-2 py-2",
+  sm: "p-3",
+  md: "p-4",
+  lg: "p-[22px] sm:px-5",
 } as const;
 
 export type ButtonProps = Omit<
