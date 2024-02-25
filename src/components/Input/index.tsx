@@ -52,7 +52,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
       shape = "round",
       size = "xs",
       variant = "fill",
-      color = "white_A700",
+      color = "gray_100",
       ...restProps
     },
     ref,
