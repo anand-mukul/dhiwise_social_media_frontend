@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "/pages/Home";
+import Home from "./pages/Home";
 import NotFound from "/pages/NotFound";
 const Settings = React.lazy(() => import("/pages/Settings"));
 const MyProfile = React.lazy(() => import("/pages/MyProfile"));

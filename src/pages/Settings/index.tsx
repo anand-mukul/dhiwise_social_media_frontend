@@ -2,7 +2,7 @@ import React from "react";
 
 import { useNavigate } from "react-router-dom";
 
-import { Button, Img, Input, Line, Text } from "components";
+import { Button, Img, Input, Line, Text } from "/src/components";
 import Sidebar1 from "components/Sidebar1";
 
 const SettingsPage: React.FC = () => {

@@ -2,7 +2,7 @@ import React from "react";
 
 import { useNavigate } from "react-router-dom";
 
-import { Button, Img, Input, Text } from "components";
+import { Button, Img, Input, Text } from "/src/components";
 
 const PasswordRecoveryPage: React.FC = () => {
   const navigate = useNavigate();
