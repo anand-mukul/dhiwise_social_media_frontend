@@ -1,0 +1,195 @@
+import React from "react";
+
+import { useNavigate } from "react-router-dom";
+
+import { Button, Img, Input, Text } from "components";
+
+const LoginPage: React.FC = () => {
+  const navigate = useNavigate();
+
+  return (
+    <>
+      <div className="bg-gray-100 flex font-inter mx-auto relative w-full">
+        <div
+          className="bg-cover bg-no-repeat flex flex-col h-[1024px] items-center justify-center my-auto p-[305px] md:px-5 w-[58%]"
+          style={{ backgroundImage: "url('images/img_left.png')" }}
+        >
+          <div className="flex flex-col items-center justify-start my-[130px] w-full">
+            <Text
+              className="text-3xl sm:text-[26px] md:text-[28px] text-white-A700"
+              size="txtInterBold30"
+            >
+              Hello!
+            </Text>
+            <Text
+              className="mt-3.5 text-sm text-white-A700"
+              size="txtInterMedium14"
+            >
+              Don’t have an account yer?
+            </Text>
+            <Button
+              className="common-pointer cursor-pointer font-bold min-w-[220px] mt-[30px] rounded-[29px] text-center text-sm"
+              onClick={() => navigate("/signup")}
+              color="indigo_A200"
+              size="xl"
+              variant="fill"
+            >
+              Create an account
+            </Button>
+          </div>
+        </div>
+        <div className="flex md:flex-col flex-row gap-2.5 items-center justify-between ml-[-45px] my-auto md:px-5 w-[46%] z-[1]">
+          <div className="bg-white-A700_7e h-32 md:mt-0 my-[448px] rounded-sm w-[1%]"></div>
+          <div className="bg-white-A700 flex flex-col justify-start p-[100px] md:px-10 sm:px-5 rounded-bl-[32px] rounded-tl-[32px]">
+            <Img
+              className="h-[41px] ml-9 md:ml-[0] w-[41px]"
+              src="images/img_question.svg"
+              alt="question"
+            />
+            <div className="flex flex-col gap-[18px] items-start justify-start md:ml-[0] ml-[37px] mt-[53px]">
+              <Text
+                className="text-[22px] text-gray-900 sm:text-lg md:text-xl"
+                size="txtInterBold22"
+              >
+                Welcome Back!{" "}
+              </Text>
+              <Text
+                className="text-gray-500 text-sm"
+                size="txtInterMedium14Gray500"
+              >
+                Sign in to continue{" "}
+              </Text>
+            </div>
+            <div className="flex flex-col gap-[34px] items-center justify-start md:ml-[0] ml-[37px] mr-[53px] mt-[60px] pt-[3px] w-4/5 md:w-full">
+              <div className="flex flex-col gap-3.5 items-start justify-start w-full">
+                <Text
+                  className="text-gray-900 text-xs tracking-[1.00px] uppercase"
+                  size="txtInterBold12"
+                >
+                  Email
+                </Text>
+                <Input
+                  name="email"
+                  placeholder="anne.carry@mail.com"
+                  className="font-medium p-0 placeholder:text-gray-500 text-left text-sm w-full"
+                  wrapClassName="flex w-full"
+                  type="email"
+                  suffix={
+                    <Img
+                      className="h-[18px] ml-[35px] mr-[15px] my-[15px]"
+                      src="images/img_television.svg"
+                      alt="television"
+                    />
+                  }
+                  shape="round"
+                ></Input>
+              </div>
+              <div className="flex flex-col gap-3.5 items-start justify-start w-full">
+                <Text
+                  className="text-gray-900 text-xs tracking-[1.00px] uppercase"
+                  size="txtInterBold12"
+                >
+                  Password
+                </Text>
+                <Input
+                  name="Group4523"
+                  placeholder="Password@123"
+                  className="font-medium p-0 placeholder:text-gray-500 text-left text-sm w-full"
+                  wrapClassName="flex w-full"
+                  type="password"
+                  suffix={
+                    <Img
+                      className="h-[18px] ml-[35px] mr-[15px] my-[15px]"
+                      src="images/img_overflowmenu.svg"
+                      alt="overflow_menu"
+                    />
+                  }
+                  shape="round"
+                ></Input>
+              </div>
+            </div>
+            <Text
+              className="common-pointer md:ml-[0] ml-[268px] mt-[25px] text-indigo-A200 text-sm"
+              size="txtInterRegular14"
+              onClick={() => navigate("/passwordrecovery")}
+            >
+              Forgot Password?
+            </Text>
+            <Button
+              className="common-pointer cursor-pointer font-bold min-w-[350px] md:ml-[0] ml-[37px] mr-[53px] mt-[30px] rounded-[29px] text-center text-sm"
+              onClick={() => navigate("/home1")}
+              color="indigo_A200"
+              size="xl"
+              variant="fill"
+            >
+              Login
+            </Button>
+            <div className="flex flex-col gap-[34px] justify-start mb-1 md:ml-[0] ml-[37px] mr-[53px] mt-[33px] w-4/5 md:w-full">
+              <Text
+                className="md:ml-[0] ml-[117px] text-gray-500 text-xs"
+                size="txtInterRegular12"
+              >
+                Or connect with socials
+              </Text>
+              <div className="flex flex-col gap-5 items-center justify-start w-full">
+                <Button
+                  className="cursor-pointer flex items-center justify-center min-w-[350px] rounded-[29px]"
+                  leftIcon={
+                    <Img
+                      className="h-[18px] ml-[35px] mr-[3px] my-5"
+                      src="images/img_facebook.svg"
+                      alt="facebook"
+                    />
+                  }
+                  color="indigo_600"
+                  size="xl"
+                  variant="fill"
+                >
+                  <div className="font-bold text-left text-sm">
+                    Connect with Facebook
+                  </div>
+                </Button>
+                <Button
+                  className="cursor-pointer flex items-center justify-center min-w-[350px] rounded-[29px]"
+                  leftIcon={
+                    <Img
+                      className="h-[18px] ml-[35px] mr-[5px] my-5"
+                      src="images/img_icon_apple.svg"
+                      alt="Icon/Apple"
+                    />
+                  }
+                  color="gray_900"
+                  size="xl"
+                  variant="fill"
+                >
+                  <div className="font-bold text-left text-sm">
+                    Connect with Apple
+                  </div>
+                </Button>
+                <Button
+                  className="cursor-pointer flex items-center justify-center min-w-[350px] rounded-[29px]"
+                  leftIcon={
+                    <Img
+                      className="h-[18px] ml-[35px] mr-1 my-5"
+                      src="images/img_google.svg"
+                      alt="google"
+                    />
+                  }
+                  color="gray_500_66"
+                  size="xl"
+                  variant="outline"
+                >
+                  <div className="font-bold text-left text-sm">
+                    Connect with Google+
+                  </div>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default LoginPage;
