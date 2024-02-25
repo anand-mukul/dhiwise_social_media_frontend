@@ -111,3 +111,54 @@ li:hover{
   justify-content: space-between;
 }
 
+.blue_A700_light_blue_200_border{
+  border-image: linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200), );
+  }
+  
+  .blue_A700_light_blue_200_border2{
+  border-image:linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200), );
+  }
+  
+  .blue_A700_light_blue_200_border3{
+  border-image: linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200), );
+  }
+  
+  .blue_A700_light_blue_200_border4{
+  border-image:linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200),);
+  }
+  
+  .blue_A700_light_blue_200_border5{
+  border-image:linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200),);
+  }
+  
+  .blue_A700_light_blue_200_border6{
+  border-image:linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200), );
+  }
+
+  .blue_A700_light_blue_200_border7{
+  border-image: linear-gradient (134.75deg, var( -- blue_A700), var( -- light_blue_200), );
+  }
+  
+  .blue_A700_light_blue_200_borders{
+  border-image: linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200), );
+  }
+  
+  .blue_A700_light_blue_200_border9{
+  border-image: linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200),);
+  }
+  
+  .blue_A700_light_blue_200_border10{
+  border-image: linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200),);
+  }
+  
+  .blue_A700_light_blue_200_border11{
+  border-image:linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200),);
+  }
+
+  .blue_A700_light_blue_200_border12{
+    border-image:linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200),);
+    }
+
+.blue_A700_light_blue_200_border13{
+      border-image:linear-gradient(134.75deg, var( -- blue_A700), var( -- light_blue_200),);
+ }
