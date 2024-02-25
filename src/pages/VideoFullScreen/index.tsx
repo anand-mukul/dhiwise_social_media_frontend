@@ -2,7 +2,7 @@ import React from "react";
 
 import { useNavigate } from "react-router-dom";
 
-import { Button, Img, Line, Text } from "/src/components";
+import { Button, Img, Line, Text } from "components";
 import Sidebar1 from "components/Sidebar1";
 
 const VideoFullScreenPage: React.FC = () => {

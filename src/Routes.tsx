@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "/pages/Home";
 import NotFound from "/pages/NotFound";
 const Settings = React.lazy(() => import("/pages/Settings"));
 const MyProfile = React.lazy(() => import("/pages/MyProfile"));
@@ -9,7 +9,7 @@ const Gallery = React.lazy(() => import("/pages/Gallery"));
 const UserProfile = React.lazy(() => import("/pages/UserProfile"));
 const MyFriends = React.lazy(() => import("/pages/MyFriends"));
 const GroupMessage = React.lazy(() => import("/pages/GroupMessage"));
-const VideoChat = React.lazy(() => import("/pages/Videochat"));
+const VideoChat = React.lazy(() => import("/pages/VideoChat"));
 const DirectMessage = React.lazy(() => import("/pages/DirectMessage"));
 const Messages = React.lazy(() => import("/pages/Messages"));
 const Notifications = React.lazy(() => import("/pages/Notifications"));

@@ -2,7 +2,7 @@ import React from "react";
 
 import { useNavigate } from "react-router-dom";
 
-import { Button, Img, Input, Line, List, Text } from "/src/components";
+import { Button, Img, Input, Line, List, Text } from "components";
 import Sidebar1 from "components/Sidebar1";
 
 const VideoChatPage: React.FC = () => {

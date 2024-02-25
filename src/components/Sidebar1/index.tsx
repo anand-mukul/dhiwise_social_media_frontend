@@ -2,7 +2,7 @@ import React from "react";
 
 import { Sidebar } from "react-pro-sidebar";
 
-import { Button, Img } from "/src/components";
+import { Button, Img } from "components";
 
 type Sidebar1Props = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLDivElement>,
