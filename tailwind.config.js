@@ -47,6 +47,9 @@ module.exports = {
         red: { A200: "#ff4e4e" },
       },
       fontFamily: { sfprodisplay: "SF Pro Display", inter: "Inter" },
+      backgroundImage:{
+        gradient: "linear-gradient(180deg, #1e1f2000, #1e1f20cc)",
+      }
     },
   },
   plugins: [require("@tailwindcss/forms")],
