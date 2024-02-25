@@ -1,10 +1,10 @@
-## mukul_s_application4
+## mukul_s_application1
 
 Generated with ❤️ from [DhiWise](https://www.dhiwise.com)
 
 ## Description
 
-- This React application is built using [Vite](https://vitejs.dev/).
+- This React application is built using [create-react-app](https://create-react-app.dev/).
 - It uses [Tailwind CSS](https://tailwindcss.com/)
 - The application is generated in [TypeScript](https://www.typescriptlang.org/).
 
@@ -27,39 +27,38 @@ This file contains various environment variables that you can configure.
 ## Folder Structure
 
 ```
-.
-├── package.json
-├── postcss.config.js
-├── vite.config.js
-├── index.html
-├── public
-│   ├── assets
-│   │   └── images --------- All Project Images
-│   ├── favicon.ico
-│   ├── manifest.json
-│   └── robots.txt
-├── README.md
-├── src
-│   ├── App.tsx
-│   ├── assets
-│   │   └── fonts ---------- Project fonts
-│   ├── components --------- UI and Detected Common Components
-│   ├── constants ---------- Project constants, eg: string consts
-│   ├── hooks -------------- Helpful Hooks
-│   ├── index.tsx
-│   ├── pages -------------- All route pages
-│   ├── Routes.tsx ---------- Routing
-│   ├── styles
-│   │   ├── index.css ------ Other Global Styles
-│   │   └── tailwind.css --- Default Tailwind modules
-│   └── util
-│       └── index.tsx ------- Helpful utils
-└── tailwind.config.js ----- Entire theme config, colors, fonts etc.
+ .
+ ├── package.json
+ ├── postcss.config.js
+ ├── public
+ │   ├── assets
+ │   │   └── images --------- All Project Images
+ │   ├── favicon.ico
+ │   ├── index.html
+ │   ├── manifest.json
+ │   └── robots.txt
+ ├── README.md
+ ├── src
+ │   ├── App.tsx
+ │   ├── assets
+ │   │   └── fonts ---------- Project fonts
+ │   ├── components --------- UI and Detected Common Components
+ │   ├── constants ---------- Project constants, eg: string consts
+ │   ├── hooks -------------- Helpful Hooks
+ │   ├── index.tsx
+ │   ├── pages -------------- All route pages
+ │   ├── Routes.tsx ---------- Routing
+ │   ├── styles
+ │   │   ├── index.css ------ Other Global Styles
+ │   │   └── tailwind.css --- Default Tailwind modules
+ │   └── util
+ │       └── index.tsx ------- Helpful utils
+ └── tailwind.config.js ----- Entire theme config, colors, fonts etc.
 ```
 
 For the project to build, **these files must exist with exact filenames**:
 
-- `index.html` is the page template;
+- `public/index.html` is the page template;
 - `src/index.tsx` is the TypeScript entry point.
 
 You may create subdirectories inside src.
@@ -71,7 +70,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm test`
 
@@ -107,7 +106,7 @@ MIT License
 
 Copyright (c) 2023 DhiWise
 
-Permission is hereby granted, to any person obtaining a copy of this software and associated documentation files (the "Software"),to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
@@ -119,6 +118,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <a href="https://www.youtube.com/c/DhiWise"><img src="https://cdn.vox-cdn.com/thumbor/0kpe316UpZWk53iw3bOLoJfF6hI=/0x0:1680x1050/1400x1400/filters:focal(706x391:974x659):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/56414325/YTLogo_old_new_animation.0.gif" width="60" alt="DhiWise YouTube"></a>
 
-<a href="https://discord.gg/UPhCetBkVu"><img src="https://user-images.githubusercontent.com/47489894/183043664-b01aac56-0372-458a-bde9-3f2a6bded21b.png" width="60" alt="DhiWise Discord"></a>
+<a href=https://discord.gg/UPhCetBkVu"><img src="https://user-images.githubusercontent.com/47489894/183043664-b01aac56-0372-458a-bde9-3f2a6bded21b.png" width="60" alt="DhiWise Discord"></a>
 
 <a href="https://docs.dhiwise.com/docs/react/intro"><img src="https://global-uploads.webflow.com/618e36726d3c0f19c9284e56/62383865d5477f2e4f6b6e2e_main-monogram-p-500.png" width="60" alt="DhiWise Documentation"></a>

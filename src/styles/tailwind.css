@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #666aec;
+  --primary-color: #ffffff33;
 }
 /* Override default focus colors for tailwindcss-forms https://github.com/tailwindlabs/tailwindcss-forms */
 [type='text']:focus,
@@ -111,21 +111,3 @@ li:hover{
   justify-content: space-between;
 }
 
-.blue_A700_light_blue_200_border{
-border-image:linear-gradient(134.75deg, var(--blue_A700), var(--light_blue_200),); 
-}
-.blue_A700_light_blue_200_border2{
-border-image:linear-gradient(134.75deg, var(--blue_A700), var(--light_blue_200),); 
-}
-.blue_A700_light_blue_200_border3{
-border-image:linear-gradient(134.75deg, var(--blue_A700), var(--light_blue_200),); 
-}
-.blue_A700_light_blue_200_border4{
-border-image:linear-gradient(134.75deg, var(--blue_A700), var(--light_blue_200),); 
-}
-.blue_A700_light_blue_200_border5{
-border-image:linear-gradient(134.75deg, var(--blue_A700), var(--light_blue_200),); 
-}
-.blue_A700_light_blue_200_border6{
-border-image:linear-gradient(134.75deg, var(--blue_A700), var(--light_blue_200),); 
-}
